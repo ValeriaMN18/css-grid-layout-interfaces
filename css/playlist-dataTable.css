@@ -1,0 +1,76 @@
+.playlistData-table {
+  display: flex;
+  padding: 0.5rem;
+  block-size: 2.375rem;
+  align-items: center;
+  gap: .5rem;
+  border-block-end: 1px solid var(--gray10);
+}
+
+.playlist-orderandtitle {
+  display: flex;
+  gap: 1rem;
+  flex: 3;
+  block-size: 2.5rem;
+  align-items: center;
+}
+
+.playlist-order {
+  justify-content: flex-end;
+  inline-size: 1.875rem;
+  display: flex;
+  color: var(--white);
+  font: var(--baseFont);
+}
+
+.playlist-title {
+  block-size: 1.375rem;
+  color: var(--white);
+  font: var(--baseFont);
+}
+
+.playlistItem-album {
+  display: flex;
+  flex: 2;
+  block-size: 2.5rem;
+  align-items: center;
+}
+
+.playlist-album {
+  color: var(--white);
+  font: var(--baseFont);
+
+}
+
+.playlistItem-dateAdded {
+  display: flex;
+  flex: 2;
+  block-size: 2.5rem;
+  align-items: center;
+}
+
+.playlist-dateAdded {
+  color: var(--white);
+  font: var(--baseFont);
+}
+
+.playlist-duration {
+  display: flex;
+  flex: 1;
+  block-size: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonIcon-clock {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  background: var(--gray50);
+  color: var(--gray10);
+}
+
+.buttonIcon-clock i {
+  font-size: 1rem;
+}

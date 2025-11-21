@@ -1,0 +1,143 @@
+/* [class^='icon-'], [class*=' icon-'] {
+  border: 1px solid red;
+  inline-size: 40px;
+  block-size: 40px;
+  background-size: cover;
+  display: inline-block;
+}
+
+.icon-home {
+  background-image: url('../icons/home.svg');
+}
+
+.icon-home-active {
+  background-image: url('../icons/home-active.svg');
+} */
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?3eop09');
+  src: url('../fonts/icomoon.eot?3eop09#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3eop09') format('truetype'),
+    url('../fonts/icomoon.woff?3eop09') format('woff'),
+    url('../fonts/icomoon.svg?3eop09#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-volumeUp:before {
+  content: "\e900";
+}
+
+.icon-volumeOff:before {
+  content: "\e901";
+}
+
+.icon-volumeDown:before {
+  content: "\e902";
+}
+
+.icon-vector:before {
+  content: "\e903";
+}
+
+.icon-searchActive:before {
+  content: "\e904";
+}
+
+.icon-search:before {
+  content: "\e905";
+}
+
+.icon-round:before {
+  content: "\e906";
+}
+
+.icon-prev:before {
+  content: "\e907";
+}
+
+.icon-play:before {
+  content: "\e908";
+}
+
+.icon-pause:before {
+  content: "\e909";
+}
+
+.icon-next:before {
+  content: "\e90a";
+}
+
+.icon-music:before {
+  content: "\e90b";
+}
+
+.icon-libraryActive:before {
+  content: "\e90c";
+}
+
+.icon-library:before {
+  content: "\e90d";
+}
+
+.icon-homeActive:before {
+  content: "\e90e";
+}
+
+.icon-home:before {
+  content: "\e90f";
+}
+
+.icon-heart:before {
+  content: "\e910";
+}
+
+.icon-download:before {
+  content: "\e911";
+}
+
+.icon-creditCard:before {
+  content: "\e912";
+}
+
+.icon-close:before {
+  content: "\e913";
+}
+
+.icon-clock:before {
+  content: "\e914";
+}
+
+.icon-calendar:before {
+  content: "\e915";
+}
+
+.icon-arrowRight:before {
+  content: "\e916";
+}
+
+.icon-arrowLeft:before {
+  content: "\e917";
+}
+
+.icon-addPlus:before {
+  content: "\e918";
+}

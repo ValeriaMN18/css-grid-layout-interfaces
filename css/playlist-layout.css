@@ -1,0 +1,61 @@
+:root {
+  --SidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.5rem;
+}
+
+.layout {
+  min-inline-size: var(--minInlineSize);
+  display: grid;
+  block-size: 100vh;
+  grid-template-areas: "sidebar main" "footer footer";
+  grid-template-columns: var(--SidebarInlineSize) 1fr;
+  grid-template-rows: 1fr var(--bottomSize);
+}
+
+.layout .sidebar {
+  grid-area: sidebar;
+}
+
+.layout .main {
+  grid-area: main;
+}
+
+.layout footer {
+  grid-area: footer;
+}
+
+.layout-block {
+  display: flex;
+}
+
+.hero {
+  background: linear-gradient(to top, rgb(255, 255, 255, .1), transparent) var(--gray70);
+  block-size: 340px;
+}
+
+.hero-mix4 {
+  background: var(--red10);
+  block-size: 340px;
+}
+
+.hero-mix1 {
+  background: linear-gradient(to top, rgb(84, 83, 83, 1), transparent) var(--white10);
+  block-size: 340px;
+}
+
+.hero-jjk {
+  background: linear-gradient(to top, rgb(0, 0, 0, .5), transparent) var(--red80);
+  block-size: 340px;
+}
+
+.hero-padormir {
+  background: var(--blue70);
+  block-size: 340px;
+}
+
+.hero-radio {
+  background: linear-gradient(to top, rgb(0, 0, 0, .5), transparent) var(--pink10);
+  block-size: 340px;
+}

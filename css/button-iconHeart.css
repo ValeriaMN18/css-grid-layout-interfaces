@@ -1,0 +1,17 @@
+.buttonIcon-heart {
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  background: var(--gray50);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: var(--gray20);
+}
+
+.buttonIcon-heart:active {
+  transform: scale(.95);
+}
+
+.buttonIcon-heart i {
+  font-size: 2rem;
+}

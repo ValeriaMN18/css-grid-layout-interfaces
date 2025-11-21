@@ -1,0 +1,45 @@
+.playlist-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.playlist-cover img {
+  vertical-align: middle;
+  border-radius: .5rem;
+  inline-size: 14.5rem;
+  flex-shrink: 0;
+}
+
+.playlist-description {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.playlistDescription-typeList {
+  font: var(--small);
+  color: var(--white);
+}
+
+.playlistDescription-title {
+  font: var(--headline1);
+  color: var(--white);
+}
+
+.playlistDescription-artists {
+  font: var(--small);
+  color: var(--white);
+}
+
+.playlist-logo {
+  display: flex;
+}
+
+.playlist-information {
+  overflow: hidden;
+  color: var(--gray10);
+  align-items: center;
+  display: flex;
+  gap: .5rem;
+}

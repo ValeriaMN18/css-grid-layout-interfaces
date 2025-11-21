@@ -1,0 +1,37 @@
+.searchPlaylist {
+  block-size: 2rem;
+  position: relative;
+  display: flex;
+  align-self: center;
+}
+
+
+.searchPlaylist i {
+  color: var(--white);
+  position: absolute;
+  font-size: 1rem;
+  left: .5rem;
+  top: calc(50% - .5rem);
+  block-size: 1rem;
+  color: var(--gray10);
+}
+
+.searchPlaylist input {
+  font: var(--button);
+  color: var(--white);
+  background: var(--gray50);
+  border-radius: .5rem;
+  border: none;
+  max-inline-size: 13.75rem;
+  width: 100%;
+  padding: .5rem;
+  padding-inline-start: 2rem;
+}
+
+.searchPlaylist:focus-within i {
+  color: var(--white);
+}
+
+.searchPlaylist input::-webkit-input-placeholder {
+  color: var(--gray10);
+}
